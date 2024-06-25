@@ -1,0 +1,52 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.imagess{
+    height: auto;
+    width: 400px;
+}
+.container{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+   
+    
+}
+.back{
+    border-color: #94a3b8; 
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 100vh;
+    width: 60%;
+
+    
+}
+.header{
+    flex-shrink: 0;
+    background-color: #94a3b8;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 100px;
+
+}
+.content{
+    margin-right: 250px;
+    font-size: 1.5rem;
+    
+}
+@media screen and (min-width: 700px){
+    .back{
+        width: 80%;
+    }
+}
